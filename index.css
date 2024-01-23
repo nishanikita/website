@@ -1,0 +1,57 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.container{
+	height:40vh;
+	width:100%;
+
+}
+#banner{
+	height:40vh;
+	background-image:linear-gradient(rgba(10, 10, 10, 0.5),rgba(8, 8, 8, 0.5)),url(image/building.jpg); 
+	background-size:cover;
+	background-position:center;	
+	margin:auto;
+	width:90%;
+	margin-top:10px;
+}
+.banner-row{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-content:center;
+	height:40vh;
+	
+}
+.content{
+	color:#fff;
+	font-size:20px;
+	margin:auto;
+}
+h2{	
+	text-transform:capitalize;
+}
+h2,p{
+	text-align:center;
+	padding:10px;
+}
+button{
+	border:2px solid #fff;
+	color:#fff;
+	background-color: transparent; 
+	border-radius:5px;
+	width:20%;
+	padding:10px;
+	font-size:15px;
+	text-transform:capitalize;
+}
+
+button:hover{
+	color:#87d6e8;
+	background-color: #fff;
+}
+.banner-btn{
+	text-align:center;
+}
